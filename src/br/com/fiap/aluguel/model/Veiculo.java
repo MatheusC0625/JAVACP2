@@ -1,3 +1,5 @@
+package br.com.fiap.aluguel.model;
+
 public class Veiculo {
 
     //atributos da classe veiculo

@@ -1,3 +1,5 @@
+package br.com.fiap.aluguel.model;
+
 public class Locacao {
 
     private Veiculo veiculo;
@@ -42,9 +44,9 @@ public class Locacao {
         } else if (!veiculo.isDisponivel()) {
             System.out.println("Não foi possível alugar o veículo. Veículo indisponível.");
         } else if (cliente.isAlugouUmCarro()){
-            System.out.println("Não foi possível alugar o veículo. Cliente já possui um veículo alugado.");
+            System.out.println("Não foi possível alugar o veículo. br.com.fiap.aluguel.model.Cliente já possui um veículo alugado.");
         } else {
-            System.out.println("revisar essa classe infernal");
+            System.out.println("revisar essa classe, deu erro");
         }
 
     }

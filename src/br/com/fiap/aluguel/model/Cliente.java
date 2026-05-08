@@ -1,3 +1,5 @@
+package br.com.fiap.aluguel.model;
+
 public class Cliente {
 
     private String nome;

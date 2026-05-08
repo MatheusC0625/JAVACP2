@@ -1,5 +1,10 @@
+package br.com.fiap.aluguelCarro.terminal;
+
+import br.com.fiap.aluguel.model.Cliente;
+import br.com.fiap.aluguel.model.Locacao;
+import br.com.fiap.aluguel.model.Veiculo;
+
 import javax.swing.*;
-import java.awt.*;
 
 public class Terminal {
     public static void main(String [] args){
